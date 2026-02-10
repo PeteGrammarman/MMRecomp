@@ -4,6 +4,8 @@
 #include "recompconfig.h"
 #include "playermodelmanager_api.h"
 #include "gDryBonesSkel.h"
+#include "gFatDryBonesSkel.h"
+#include "strongbad64.h"
 
 // Mask positioning constants
 #define DB_MASK_SCALE_MODIFIER 1.2f
@@ -38,26 +40,22 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
     PlayerModelManager_setDisplayName(h, "Dry Bones"); // name that shows up in the menu
     PlayerModelManager_setSkeleton(h, &gDryBonesSkel);
     PlayerModelManager_setMatrix(h, PMM_MTX_SHIELD_HERO_BACK, &gEmptyMtx);
+
+    PlayerModelManagerHandle f = PLAYERMODELMANAGER_REGISTER_MODEL("DryBonesTheFatGod", PMM_MODEL_TYPE_CHILD);
+    PlayerModelManager_setAuthor(f, "PeteGrammarman"); // optional, will show up in a later version of PMM
+    PlayerModelManager_setDisplayName(f, "Fat Dry Bones"); // name that shows up in the menu
+    PlayerModelManager_setSkeleton(f, &gFatDryBonesSkel);
+    PlayerModelManager_setMatrix(f, PMM_MTX_SHIELD_HERO_BACK, &gEmptyMtx);
+
+    PlayerModelManagerHandle sb = PLAYERMODELMANAGER_REGISTER_MODEL("StrongBadTheWrestleMan", PMM_MODEL_TYPE_CHILD);
+    PlayerModelManager_setAuthor(sb, "PeteGrammarman"); // optional, will show up in a later version of PMM
+    PlayerModelManager_setDisplayName(sb, "Strong Bad"); // name that shows up in the menu
+    PlayerModelManager_setSkeleton(sb, &gStrongBadSkel_001);
 }
 
 
 RECOMP_HOOK("Player_PostLimbDrawGameplay") void on_Player_PostLimbDrawGameplay(PlayState* play, s32 limbIndex, Gfx** dList1, Gfx** dList2, Vec3s* rot, Actor* actor) {
     Player* player = (Player*)actor;
-    /*
-    // Handle sheath scaling - scale to 0 to hide it
-    if (limbIndex == PLAYER_LIMB_SHEATH) {
-        if (*dList1 != NULL) {
-            OPEN_DISPS(play->state.gfxCtx);
-            Matrix_Push();
-            gPushedMatrixSheath = 1;
-            Matrix_Scale(0.0f, 0.0f, 0.0f, MTXMODE_APPLY);
-            MATRIX_FINALIZE_AND_LOAD(POLY_OPA_DISP++, play->state.gfxCtx);
-            CLOSE_DISPS(play->state.gfxCtx);
-        } else {
-            gPushedMatrixSheath = 0;
-        }
-    }
-    */
 
     // Handle mask positioning
     if (limbIndex == PLAYER_LIMB_HEAD) {
