@@ -52,12 +52,8 @@ $(C_OBJS): $(BUILD_DIR)/%.o : %.c | $(BUILD_DIRS)
 	$(CC) $(CFLAGS) $(CPPFLAGS) $< -MMD -MF $(@:.o=.d) -c -o $@
 
 clean:
-ifeq ($(OS),Windows_NT)
-	if exist $(BUILD_DIR) rmdir /S /Q $(BUILD_DIR)
-else
-	rm -rf $(BUILD_DIR)
-endif
-
+	find $(BUILD_DIR) -mindepth 1 -delete
+	mkdir -p $(BUILD_DIR)/src
 -include $(ALL_DEPS)
 
 .PHONY: clean all
