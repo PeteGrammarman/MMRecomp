@@ -1,0 +1,42 @@
+{
+    "configuration": {
+        "autoPath": "rt64",
+        "configurationVersion": 3,
+        "defaultOperation": "stream",
+        "defaultShift": "half",
+        "hashVersion": 5
+    },
+    "extraFiles": [],
+    "operationFilters": [],
+    "shiftFilters": [],
+    "textures": [
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "ce121c565570df64"
+            },
+            "path": "karonnew"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "43c8bf12c45aa90b"
+            },
+            "path": "karonnew"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "51d6d99608ff0603"
+            },
+            "path": "karonnew"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "04af7f2a799f1d4a"
+            },
+            "path": "karonnew"
+        }
+    ]
+}
