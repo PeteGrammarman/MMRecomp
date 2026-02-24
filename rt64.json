@@ -30,6 +30,48 @@
                 "rt64": "04af7f2a799f1d4a"
             },
             "path": "karonnew"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "03d0dcf7d61f81e2"
+            },
+            "path": "T_PaulineGunman_Body_Alb2"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "d73d449e2af14d26"
+            },
+            "path": "T_PaulineGunman_Eye_Alb.1"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "092a72e74da4e97d"
+            },
+            "path": "sk81_strongbad_eyesopen"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "1236aefd8f9389fe"
+            },
+            "path": "sk81_strongbad_face"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "a161bb23a3f01923"
+            },
+            "path": "sk81_strongbad_torso"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "952f66048030fc94"
+            },
+            "path": "sk81_strongbad_legs"
         }
     ]
 }

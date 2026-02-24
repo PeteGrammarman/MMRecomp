@@ -321,11 +321,11 @@ Gfx Plane_Plane_mesh_layer_Opaque_tri_2[] = {
 };
 
 Gfx mat_Plane_ka_body_f3d_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_ZBUFFER | G_CULL_BACK | G_LIGHTING | G_FOG | G_SHADE),
+	gsSPLoadGeometryMode(G_CULL_BACK | G_ZBUFFER | G_SHADE | G_LIGHTING | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TP_PERSP | G_CK_NONE | G_CD_MAGICSQ | G_TC_FILT | G_TD_CLAMP | G_AD_NOISE | G_PM_NPRIMITIVE | G_CYC_2CYCLE | G_TF_BILERP | G_TL_TILE | G_TT_NONE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF2 | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_PM_NPRIMITIVE | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TL_TILE | G_CYC_2CYCLE | G_TP_PERSP | G_CD_MAGICSQ | G_TT_NONE | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, Plane_karonnew2_exp_rgba16),
@@ -338,16 +338,16 @@ Gfx mat_Plane_ka_body_f3d_layerOpaque[] = {
 
 Gfx mat_revert_Plane_ka_body_f3d_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_Plane_f3dlite_material_042_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_ZBUFFER | G_LIGHTING | G_FOG | G_SHADE),
+	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_LIGHTING | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, TEXEL0, 0, 0, 0, TEXEL0, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TP_PERSP | G_CK_NONE | G_CD_MAGICSQ | G_TC_FILT | G_TD_CLAMP | G_TT_RGBA16 | G_AD_NOISE | G_PM_NPRIMITIVE | G_CYC_2CYCLE | G_TF_BILERP | G_TL_TILE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_TEX_EDGE2 | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TL_TILE | G_CYC_2CYCLE | G_TP_PERSP | G_CD_MAGICSQ | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_TEX_EDGE2 | G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, Plane_pc55_eye_alb_0_transp_pal_rgba16),
@@ -356,23 +356,23 @@ Gfx mat_Plane_f3dlite_material_042_layerOpaque[] = {
 	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, Plane_pc55_eye_alb_0_transp_ci8),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
-	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
 	gsDPSetTileSize(0, 0, 0, 124, 124),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_revert_Plane_f3dlite_material_042_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_Plane_f3dlite_material_041_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADING_SMOOTH | G_ZBUFFER | G_LIGHTING | G_FOG | G_SHADE),
+	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_LIGHTING | G_FOG | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, TEXEL0, 0, 0, 0, TEXEL0, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TP_PERSP | G_CK_NONE | G_CD_MAGICSQ | G_TC_FILT | G_TD_CLAMP | G_TT_RGBA16 | G_AD_NOISE | G_PM_NPRIMITIVE | G_CYC_2CYCLE | G_TF_BILERP | G_TL_TILE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_TEX_EDGE2 | G_RM_FOG_SHADE_A | G_ZS_PIXEL),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_AD_NOISE | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_CK_NONE | G_TC_FILT | G_TF_BILERP | G_TL_TILE | G_CYC_2CYCLE | G_TP_PERSP | G_CD_MAGICSQ | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_TEX_EDGE2 | G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, Plane_pc55_eye_alb_0_transp_pal_rgba16),
@@ -381,18 +381,18 @@ Gfx mat_Plane_f3dlite_material_041_layerOpaque[] = {
 	gsDPSetTextureImage(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 1, Plane_pc55_eye_alb_0_transp_ci8),
 	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b_LOAD_BLOCK, 0, 0, 7, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
 	gsDPLoadBlock(7, 0, 0, 511, 512),
-	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0, G_TX_WRAP | G_TX_NOMIRROR, 6, 0),
-	gsDPSetTileSize(0, 0, 0, 252, 252),
+	gsDPSetTile(G_IM_FMT_CI, G_IM_SIZ_8b, 4, 0, 0, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0, G_TX_CLAMP | G_TX_NOMIRROR, 5, 0),
+	gsDPSetTileSize(0, 0, 0, 124, 124),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_revert_Plane_f3dlite_material_041_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_AC_NONE | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPEndDisplayList(),
 };
 
-Gfx GoronPlane[] = {
+Gfx Plane[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(Plane_Plane_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),

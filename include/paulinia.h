@@ -5,7 +5,8 @@
 #include "global.h"
 
 extern u64 gPauliniaSkel_T_PaulineGunman_Body_Alb_rgba16[];
-extern u64 gPauliniaSkel_T_PaulineGunman_Eye_Alb_0_rgba16[];
+extern u64 gPauliniaSkel_T_PaulineGunman_Eye_Alb_0_ci8[];
+extern u64 gPauliniaSkel_T_PaulineGunman_Eye_Alb_0_pal_rgba16[];
 extern Vtx gPauliniaSkel_bone001_gCremiaTorsoLimb_mesh_layer_Opaque_vtx_0[517];
 extern Gfx gPauliniaSkel_bone001_gCremiaTorsoLimb_mesh_layer_Opaque_tri_0[];
 extern Vtx gPauliniaSkel_bone002_gCremiaLeftUpperArmLimb_mesh_layer_Opaque_vtx_0[182];

@@ -11,7 +11,8 @@
 #include "gFishBonesSkel.h"
 #include "gDryNutSkel.h"
 #include "paulinia.h"
-
+#include "z64actor.h"
+#include "strongbad64_fat.h"
 
 // Mask positioning constants
 #define DB_MASK_SCALE_MODIFIER 1.2f
@@ -47,6 +48,8 @@ static Mtx sSBShieldMtx; //Strong Bad shield matrix for positioning
 static Mtx FGDrumMtx; //Drum matrix for resizing
 
 extern Gfx GoronPlane[];
+extern void* sDryBonesEyes[];
+
 
 
 PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
@@ -57,6 +60,8 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
     PlayerModelManager_setSkeleton(h, &gDryBonesSkel);
     PlayerModelManager_setMatrix(h, PMM_MTX_SHIELD_HERO_BACK, &gEmptyMtx);
     PlayerModelManager_setMatrix(h, PMM_MTX_SHIELD_MIRROR_BACK, &gEmptyMtx);
+    PlayerModelManager_setEyesTextures(h, sDryBonesEyes);
+
     
     //Mask poistioning
     guPosition(&DBMaskMtx, 0.0f, 0.0f, 0.0f, DB_MASK_SCALE_MODIFIER, DB_MASK_FORWARDS_OFFSET, DB_MASK_DOWNWARDS_OFFSET, 0.0f);  //?,?,?,Scale, Forwards, Downwards, Lateral
@@ -113,15 +118,33 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
     PlayerModelManager_setAuthor(sb, "PeteGrammarman"); // optional, will show up in a later version of PMM
     PlayerModelManager_setDisplayName(sb, "Strong Bad"); // name that shows up in the menu
     PlayerModelManager_setSkeleton(sb, &StrongBadSkel);
+   // PlayerModelManager_setEyesTextures(sb, gLinkOniEyeTextures);
+   // PlayerModelManager_setMouthTextures(sb, gLinkOniMouthTextures);
+
+    //STRONG BAD FAT
+    PlayerModelManagerHandle sbf = PLAYERMODELMANAGER_REGISTER_MODEL("StrongBadTheFatMan", PMM_MODEL_TYPE_GORON);
+    PlayerModelManager_setAuthor(sbf, "PeteGrammarman"); // optional, will show up in a later version of PMM
+    PlayerModelManager_setDisplayName(sbf, "Strong Bad Fat"); // name that shows up in the menu
+    PlayerModelManager_setSkeleton(sbf, &StrongBadFatSkel);
+  //  PlayerModelManager_setEyesTextures(sbf, gLinkOniEyeTextures);
+   // PlayerModelManager_setMouthTextures(sbf, gLinkOniMouthTextures);
 
     //MASKS
-    guPosition(&sSBMaskMtx, 0.0f, 0.0f, 0.0f, 1.2f, 4.0f, - 12.0f, 0.0f);  //?,?,?,Scale, Forwards, Downwards, Lateral
+    guPosition(&sSBMaskMtx, 0.0f, 0.0f, 0.0f, 1.5f, 12.0f, -18.0f, 0.0f);  //?,?,?,Scale, Forwards, Downwards, Lateral
     PlayerModelManager_setMatrix(sb, PMM_MTX_MASKS, &sSBMaskMtx);
 
     //SHIELD
-    guPosition(&sSBShieldMtx, 0.0f, 0.0f, 0.0f, 1.0f, -10.0f, 0.0f, 0.0f);  //?,?,?,Scale, Forwards, Downwards, Lateral
+    guPosition(&sSBShieldMtx, 0.0f, 0.0f, 0.0f, 0.7f, 15.0f, 0.0f, 0.0f);  //?,?,?,Scale, Forwards, Downwards, Lateral
     PlayerModelManager_setMatrix(sb, PMM_MTX_SHIELD1_ITEM, &sSBShieldMtx);
     
 }
+
+extern FlexSkeletonHeader gPauliniaSkel;
+extern FlexSkeletonHeader gCremiaSkel;
+
+RECOMP_HOOK("EnMaYto_Init") void on_EnMaYto_Init(Actor* thix, PlayState* play) {
+    *(FlexSkeletonHeader*)Lib_SegmentedToVirtual(&gCremiaSkel) = gPauliniaSkel;
+}
+
 
 

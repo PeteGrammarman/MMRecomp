@@ -1,5 +1,5 @@
-#ifndef STRONGBAD64_H
-#define STRONGBAD64_H
+#ifndef STRONGBAD64-FAT_H
+#define STRONGBAD64-FAT_H
 
 #include "ultra64.h"
 #include "global.h"
@@ -8,8 +8,8 @@ extern u64 StrongBadSkel_sk81_strongbad_mouthsquare_ci4[];
 extern u64 StrongBadSkel_sk81_strongbad_mouthsquare_pal_rgba16[];
 extern u64 StrongBadSkel_sk81_strongbad_legs_ci4[];
 extern u64 StrongBadSkel_sk81_strongbad_legs_pal_rgba16[];
-extern u64 StrongBadSkel_sk81_strongbad_eyesopen_ci8[];
-extern u64 StrongBadSkel_sk81_strongbad_eyesopen_pal_rgba16[];
+extern u64 StrongBadSkel__0x0a000000_ci8[];
+extern u64 StrongBadSkel__0x0a000000_pal_rgba16[];
 extern u64 StrongBadSkel_sk81_strongbad_knotmaskalpha_ci4[];
 extern u64 StrongBadSkel_sk81_strongbad_knotmaskalpha_pal_rgba16[];
 extern u64 StrongBadSkel_sk81_strongbad_face_ci8[];
@@ -26,7 +26,7 @@ extern Vtx StrongBadSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_vtx_0
 extern Gfx StrongBadSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque_tri_0[];
 extern Vtx StrongBadSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_vtx_0[132];
 extern Gfx StrongBadSkel_bone005_gLinkHumanRightFootLimb_mesh_layer_Opaque_tri_0[];
-extern Vtx StrongBadSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_0[220];
+extern Vtx StrongBadSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_vtx_0[217];
 extern Gfx StrongBadSkel_bone006_gLinkHumanLeftThighLimb_mesh_layer_Opaque_tri_0[];
 extern Vtx StrongBadSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_vtx_0[217];
 extern Gfx StrongBadSkel_bone007_gLinkHumanLeftShinLimb_mesh_layer_Opaque_tri_0[];
@@ -64,7 +64,7 @@ extern Vtx StrongBadSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_vtx_0
 extern Gfx StrongBadSkel_bone018_gLinkHumanRightHandLimb_mesh_layer_Opaque_tri_0[];
 extern Vtx StrongBadSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_vtx_0[4];
 extern Gfx StrongBadSkel_bone019_gLinkHumanSheathLimb_mesh_layer_Opaque_tri_0[];
-extern Vtx StrongBadSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0[558];
+extern Vtx StrongBadSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0[565];
 extern Gfx StrongBadSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0[];
 extern Gfx mat_StrongBadSkel_Material__61_f3d_layerOpaque[];
 extern Gfx mat_revert_StrongBadSkel_Material__61_f3d_layerOpaque[];

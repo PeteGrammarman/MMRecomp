@@ -23,6 +23,27 @@
                 "rt64": "51d6d99608ff0603"
             },
             "path": "karonnew"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "04af7f2a799f1d4a"
+            },
+            "path": "karonnew"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "03d0dcf7d61f81e2"
+            },
+            "path": "T_PaulineGunman_Body_Alb2"
+        },
+        {
+            "hashes": {
+                "rice": "",
+                "rt64": "d73d449e2af14d26"
+            },
+            "path": "T_PaulineGunman_Eye_Alb.1"
         }
     ]
 }

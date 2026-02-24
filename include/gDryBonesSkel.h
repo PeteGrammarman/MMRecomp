@@ -45,8 +45,7 @@ extern Vtx gDryBonesSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_vtx_0[104
 extern Gfx gDryBonesSkel_bone020_gLinkHumanTorsoLimb_mesh_layer_Opaque_tri_0[];
 extern Gfx mat_gDryBonesSkel_ka_body_f3d_layerOpaque[];
 extern Gfx mat_revert_gDryBonesSkel_ka_body_f3d_layerOpaque[];
-extern Gfx mat_gDryBonesSkel_ka_eye_f3d_layerOpaque[];
-extern Gfx mat_revert_gDryBonesSkel_ka_eye_f3d_layerOpaque[];
+extern Gfx mat_gDryBonesSkel_ka_eye_f3d[];
 extern Gfx gDryBonesSkel_bone001_gLinkHumanWaistLimb_mesh_layer_Opaque[];
 extern Gfx gDryBonesSkel_bone003_gLinkHumanRightThighLimb_mesh_layer_Opaque[];
 extern Gfx gDryBonesSkel_bone004_gLinkHumanRightShinLimb_mesh_layer_Opaque[];

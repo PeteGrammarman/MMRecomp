@@ -8,7 +8,7 @@
 id = "DryBonesTheSexGod"
 
 # Version of this mod.
-version = "1.0.18"
+version = "1.0.21"
 
 # The name that will show up for this mod in the mod menu. This should be human readable.
 display_name = "Dry Bones"
@@ -68,7 +68,15 @@ additional_files = [
   "thumb.png",
   "rt64.json",
   "rt64-low-mip-cache.bin",
-  "karonnew.dds"
+  "karonnew.dds",
+  "T_PaulineGunman_Body_Alb2.png",
+  "T_PaulineGunman_Eye_Alb.1.png",
+  "sk81_strongbad_eyesopen.png",
+  "sk81_strongbad_face.png",
+  "sk81_strongbad_glove.png",
+  "sk81_strongbad_knotmaskalpha.png",
+  "sk81_strongbad_legs.png",
+  "sk81_strongbad_torso.png"
 ]
 
 [[manifest.config_options]]
