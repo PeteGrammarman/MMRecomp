@@ -1,0 +1,62 @@
+#ifndef DB_ELEGY_HUMAN_H
+#define DB_ELEGY_HUMAN_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDryBonesElegyShellHuman_elegy_shell_deku_platform_rgba16_png_001_rgba16[];
+extern u64 gDryBonesElegyShellHuman_tex3_ci8[];
+extern u64 gDryBonesElegyShellHuman_tex3_pal_rgba16[];
+extern u64 gDryBonesElegyShellHuman_tex4_ci8[];
+extern u64 gDryBonesElegyShellHuman_tex4_pal_rgba16[];
+extern u64 gDryBonesElegyShellHuman_tex7_i8[];
+extern u64 gDryBonesElegyShellHuman_tex2_ci8[];
+extern u64 gDryBonesElegyShellHuman_tex2_pal_rgba16[];
+extern u64 gDryBonesElegyShellHuman_tex5_ci8[];
+extern u64 gDryBonesElegyShellHuman_tex5_pal_rgba16[];
+extern u64 gDryBonesElegyShellHuman_tex8_ci8[];
+extern u64 gDryBonesElegyShellHuman_tex8_pal_rgba16[];
+extern u64 gDryBonesElegyShellHuman_tex0_ci4[];
+extern u64 gDryBonesElegyShellHuman_tex0_pal_rgba16[];
+extern u64 gDryBonesElegyShellHuman_tex1_ci8[];
+extern u64 gDryBonesElegyShellHuman_tex1_pal_rgba16[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_0[38];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_0[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_1[510];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_1[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_2[4];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_2[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_3[71];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_3[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_4[316];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_4[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_5[9];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_5[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_6[19];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_6[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_7[24];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_7[];
+extern Vtx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_vtx_8[10];
+extern Gfx gDryBonesElegyShellHuman_gDryBonesElegyShellHuman_mesh_layer_Opaque_tri_8[];
+extern Gfx mat_gDryBonesElegyShellHuman_f3dlite_material_074_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_f3dlite_material_074_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellHuman_Back_of_head_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_Back_of_head_f3d_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellHuman_Nose_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_Nose_f3d_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellHuman_Black_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_Black_f3d_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellHuman_Teeth_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_Teeth_f3d_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellHuman_Eye_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_Eye_f3d_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellHuman_Shell_front_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_Shell_front_f3d_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellHuman_Shell_rim_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_Shell_rim_f3d_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellHuman_Shell_back_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellHuman_Shell_back_f3d_layerOpaque[];
+extern Gfx gDryBonesElegyShellHuman[];
+
+#endif

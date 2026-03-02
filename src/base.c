@@ -49,11 +49,16 @@ static Mtx FGDrumMtx; //Drum matrix for resizing
 
 extern Gfx GoronPlane[];
 extern void* sDryBonesEyes[];
+extern Gfx gDryBonesElegyShellHuman[];
+extern Gfx gDryBonesElegyShellGoron[];
+extern Gfx gDryBonesElegyShellDeku[];
+
+//gElegyShellHumanDL
 
 
 
 PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
-    //DRY BONES (human)
+    //DRY BONES (human) h
     PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("DryBonesTheSexGod", PMM_MODEL_TYPE_CHILD);
     PlayerModelManager_setAuthor(h, "PeteGrammarman"); // optional, will show up in a later version of PMM
     PlayerModelManager_setDisplayName(h, "Dry Bones"); // name that shows up in the menu
@@ -61,16 +66,17 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
     PlayerModelManager_setMatrix(h, PMM_MTX_SHIELD_HERO_BACK, &gEmptyMtx);
     PlayerModelManager_setMatrix(h, PMM_MTX_SHIELD_MIRROR_BACK, &gEmptyMtx);
     PlayerModelManager_setEyesTextures(h, sDryBonesEyes);
+    PlayerModelManager_setDisplayList(h, PMM_DL_ELEGY_OF_EMPTINESS_SHELL_HUMAN, gDryBonesElegyShellHuman);
 
     
-    //Mask poistioning
+    //Mask poistioning 
     guPosition(&DBMaskMtx, 0.0f, 0.0f, 0.0f, DB_MASK_SCALE_MODIFIER, DB_MASK_FORWARDS_OFFSET, DB_MASK_DOWNWARDS_OFFSET, 0.0f);  //?,?,?,Scale, Forwards, Downwards, Lateral
     PlayerModelManager_setMatrix(h, PMM_MTX_MASKS, &DBMaskMtx);
     //Sheath positioning
     //guPosition(&DBSheathMtx, 0.0f, 0.0f, 0.0f, 1.0f, 4.0f, - 12.0f, 0.0f); //?,?,?,Scale, Forwards, Downwards, Lateral
     //PlayerModelManager_setMatrix(h, PMM_DL_SWORD_FIERCE_DEITY_BLADE, &DBSheathMtx;
 
-    //DRY BONES FAT (human)
+    //DRY BONES FAT (human) f
     PlayerModelManagerHandle f = PLAYERMODELMANAGER_REGISTER_MODEL("DryBonesTheFatGod", PMM_MODEL_TYPE_CHILD);
     PlayerModelManager_setAuthor(f, "PeteGrammarman"); // optional, will show up in a later version of PMM
     PlayerModelManager_setDisplayName(f, "Fat Dry Bones"); // name that shows up in the menu
@@ -78,6 +84,9 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
     PlayerModelManager_setMatrix(f, PMM_MTX_SHIELD_HERO_BACK, &gEmptyMtx);
     PlayerModelManager_setMatrix(f, PMM_MTX_SHIELD_MIRROR_BACK, &gEmptyMtx);
     
+    //ELEGY DRY BONES STATUES
+    //PlayerModelManager_setDisplayList(h, PMM_DL_ELEGY_OF_EMPTINESS_SHELL_HUMAN, gDryBonesElegyShellHuman); //Replace DL for Goron curled
+    //PlayerModelManager_setDisplayList(h, PMM_DL_ELEGY_OF_EMPTINESS_SHELL_HUMAN, gDryBonesElegyShellHuman); //Replace DL for Goron curled
 
 
     //DRY BONES GORON
@@ -86,7 +95,7 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
     PlayerModelManager_setDisplayName(fg, "Fat Goron Bones"); // name that shows up in the menu
     PlayerModelManager_setSkeleton(fg, &gFatDryBonesSkel);
     PlayerModelManager_setDisplayList(fg, PMM_DL_CURLED, GoronPlane); //Replace DL for Goron curled
-    PlayerModelManager_setDisplayList(fg, PMM_DL_CURLED, GoronPlane); 
+    PlayerModelManager_setDisplayList(fg, PMM_DL_ELEGY_OF_EMPTINESS_SHELL_GORON, gDryBonesElegyShellGoron);
 
     //Resize Drums
     /*
@@ -111,6 +120,8 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
     PlayerModelManager_setAuthor(dn, "PeteGrammarman"); // optional, will show up in a later version of PMM
     PlayerModelManager_setDisplayName(dn, "Dry Nut"); // name that shows up in the menu
     PlayerModelManager_setSkeleton(dn, &gDryNutSkel);
+    PlayerModelManager_setDisplayList(dn, PMM_DL_ELEGY_OF_EMPTINESS_SHELL_DEKU, gDryBonesElegyShellDeku);
+
 
     
     //STRONG BAD
@@ -139,11 +150,21 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerModels(void) {
     
 }
 
+
+//CREMIA PAULINE REPLACE
 extern FlexSkeletonHeader gPauliniaSkel;
 extern FlexSkeletonHeader gCremiaSkel;
+extern FlexSkeletonHeader gPaulineWagon;
+extern FlexSkeletonHeader gUmSkel;
 
+//Replace Cremia model
 RECOMP_HOOK("EnMaYto_Init") void on_EnMaYto_Init(Actor* thix, PlayState* play) {
     *(FlexSkeletonHeader*)Lib_SegmentedToVirtual(&gCremiaSkel) = gPauliniaSkel;
+}
+
+//Replace Cremia in cart model
+RECOMP_HOOK("ObjUm_Init") void on_ObjUm_Init(Actor* thix, PlayState* play) {
+    *(FlexSkeletonHeader*)Lib_SegmentedToVirtual(&gUmSkel) = gPaulineWagon;
 }
 
 

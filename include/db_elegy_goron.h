@@ -1,0 +1,20 @@
+#ifndef DB_ELEGY_GORON_H
+#define DB_ELEGY_GORON_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDryBonesElegyShellGoron_elegy_shell_human_platform_rgba16_png_001_rgba16[];
+extern u64 gDryBonesElegyShellGoron_karonnew3_rgba16[];
+extern Vtx gDryBonesElegyShellGoron_gDryBonesElegyShellGoron_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDryBonesElegyShellGoron_gDryBonesElegyShellGoron_mesh_layer_Opaque_vtx_0[38];
+extern Gfx gDryBonesElegyShellGoron_gDryBonesElegyShellGoron_mesh_layer_Opaque_tri_0[];
+extern Vtx gDryBonesElegyShellGoron_gDryBonesElegyShellGoron_mesh_layer_Opaque_vtx_1[1043];
+extern Gfx gDryBonesElegyShellGoron_gDryBonesElegyShellGoron_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDryBonesElegyShellGoron_f3dlite_material_079_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellGoron_f3dlite_material_079_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellGoron_ka_body_f3d_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellGoron_ka_body_f3d_layerOpaque[];
+extern Gfx gDryBonesElegyShellGoron[];
+
+#endif

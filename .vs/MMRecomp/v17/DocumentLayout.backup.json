@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\gDryBonesSkel.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\gDryBonesSkel.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\base.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\base.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_deku.h||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\db_elegy_deku.h||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\gDryBonesSkel.h||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\gDryBonesSkel.h||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\mod.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mod.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\db_elegy_goron.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\db_elegy_goron.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_goron.h||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\db_elegy_goron.h||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_human.h||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\db_elegy_human.h||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\gDryBonesSkel.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\gDryBonesSkel.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\strongbad64_fat.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\strongbad64_fat.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\fgGoronRoll.h||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\fgGoronRoll.h||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\fgGoronRoll.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\fgGoronRoll.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\mod.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:mod.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\strongbad64_fat.h||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -62,14 +86,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\gFatDryBonesSkel.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\fgGoronRoll.h||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:include\\fgGoronRoll.h||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\fgGoronRoll.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\fgGoronRoll.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\gDryNutSkel.c||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\gDryNutSkel.c||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -102,17 +118,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "mod.toml",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\mod.toml",
               "RelativeDocumentMoniker": "mod.toml",
               "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\mod.toml",
               "RelativeToolTip": "mod.toml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-02T11:13:36.475Z",
               "IsPinned": true,
@@ -120,13 +136,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "base.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\base.c",
               "RelativeDocumentMoniker": "src\\base.c",
               "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\base.c",
               "RelativeToolTip": "src\\base.c",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-04T07:29:01.341Z",
               "IsPinned": true,
@@ -134,20 +150,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "db_elegy_deku.h",
+              "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_deku.h",
+              "RelativeDocumentMoniker": "include\\db_elegy_deku.h",
+              "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_deku.h",
+              "RelativeToolTip": "include\\db_elegy_deku.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-24T09:13:20.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "db_elegy_goron.c",
+              "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\db_elegy_goron.c",
+              "RelativeDocumentMoniker": "src\\db_elegy_goron.c",
+              "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\db_elegy_goron.c",
+              "RelativeToolTip": "src\\db_elegy_goron.c",
+              "ViewState": "AgIAAAkHAAAAAAAAAAAmwCQHAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-24T08:34:20.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "db_elegy_goron.h",
+              "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_goron.h",
+              "RelativeDocumentMoniker": "include\\db_elegy_goron.h",
+              "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_goron.h",
+              "RelativeToolTip": "include\\db_elegy_goron.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-24T08:33:58.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "db_elegy_human.h",
+              "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_human.h",
+              "RelativeDocumentMoniker": "include\\db_elegy_human.h",
+              "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\db_elegy_human.h",
+              "RelativeToolTip": "include\\db_elegy_human.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-24T08:07:20.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "gDryBonesSkel.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\gDryBonesSkel.c",
               "RelativeDocumentMoniker": "src\\gDryBonesSkel.c",
               "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\gDryBonesSkel.c",
               "RelativeToolTip": "src\\gDryBonesSkel.c",
-              "ViewState": "AgIAALkHAAAAAAAAAAAmwM4HAAABAAAAAAAAAA==",
+              "ViewState": "AgIAALYHAAAAAAAAAAAmwNUHAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-07T06:29:27.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "strongbad64_fat.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\strongbad64_fat.c",
               "RelativeDocumentMoniker": "src\\strongbad64_fat.c",
@@ -160,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "strongbad64_fat.h",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\strongbad64_fat.h",
               "RelativeDocumentMoniker": "include\\strongbad64_fat.h",
@@ -168,12 +236,11 @@
               "RelativeToolTip": "include\\strongbad64_fat.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-15T08:00:44.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T08:00:44.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "paulinia.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\paulinia.c",
               "RelativeDocumentMoniker": "src\\paulinia.c",
@@ -185,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "paulinia.h",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\paulinia.h",
               "RelativeDocumentMoniker": "include\\paulinia.h",
@@ -197,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "gDryNutSkel.h",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\gDryNutSkel.h",
               "RelativeDocumentMoniker": "include\\gDryNutSkel.h",
@@ -209,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "rt64.json",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\rt64.json",
               "RelativeDocumentMoniker": "rt64.json",
@@ -221,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "gFishBonesSkel.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\gFishBonesSkel.c",
               "RelativeDocumentMoniker": "src\\gFishBonesSkel.c",
@@ -229,12 +296,11 @@
               "RelativeToolTip": "src\\gFishBonesSkel.c",
               "ViewState": "AgIAAEUHAAAAAAAAAAAmwGIHAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-02-11T06:51:02.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T06:51:02.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "gFishBonesSkel.h",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\gFishBonesSkel.h",
               "RelativeDocumentMoniker": "include\\gFishBonesSkel.h",
@@ -242,8 +308,7 @@
               "RelativeToolTip": "include\\gFishBonesSkel.h",
               "ViewState": "AgIAADQAAAAAAAAAAAAmwEMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-11T06:50:49.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T06:50:49.251Z"
             },
             {
               "$type": "Document",
@@ -253,14 +318,14 @@
               "RelativeDocumentMoniker": "include\\gDryBonesSkel.h",
               "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\gDryBonesSkel.h",
               "RelativeToolTip": "include\\gDryBonesSkel.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-07T06:29:46.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "rt64.json",
               "DocumentMoniker": "F:\\Modding\\N64\\TexturePacker\\rt64.json",
               "RelativeDocumentMoniker": "..\\..\\TexturePacker\\rt64.json",
@@ -272,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "rt64.json",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\textures\\rt64.json",
               "RelativeDocumentMoniker": "textures\\rt64.json",
@@ -284,31 +349,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "fgGoronRoll.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\fgGoronRoll.c",
               "RelativeDocumentMoniker": "src\\fgGoronRoll.c",
               "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\fgGoronRoll.c",
               "RelativeToolTip": "src\\fgGoronRoll.c",
-              "ViewState": "AgIAAHsBAAAAAAAAAAAmwJABAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAHsBAAAAAAAAAAAmwIoBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-02-11T02:25:53.203Z"
+              "WhenOpened": "2026-02-11T02:25:53.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "fgGoronRoll.h",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\fgGoronRoll.h",
               "RelativeDocumentMoniker": "include\\fgGoronRoll.h",
               "ToolTip": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\fgGoronRoll.h",
               "RelativeToolTip": "include\\fgGoronRoll.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-11T02:25:19.998Z"
+              "WhenOpened": "2026-02-11T02:25:19.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "CJ_code.c",
               "DocumentMoniker": "F:\\Modding\\N64\\Recomp Mods\\MM-Play-as-CJ-mod\\src\\CJ_code.c",
               "RelativeDocumentMoniker": "..\\..\\Recomp Mods\\MM-Play-as-CJ-mod\\src\\CJ_code.c",
@@ -320,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "gFatDryBonesSkel.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\gFatDryBonesSkel.c",
               "RelativeDocumentMoniker": "src\\gFatDryBonesSkel.c",
@@ -332,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "gFatDryBonesSkel.h",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\gFatDryBonesSkel.h",
               "RelativeDocumentMoniker": "include\\gFatDryBonesSkel.h",
@@ -340,12 +407,11 @@
               "RelativeToolTip": "include\\gFatDryBonesSkel.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-10T01:48:13.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T01:48:13.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "strongbad64.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\strongbad64.c",
               "RelativeDocumentMoniker": "src\\strongbad64.c",
@@ -357,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "gDryNutSkel.c",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\src\\gDryNutSkel.c",
               "RelativeDocumentMoniker": "src\\gDryNutSkel.c",
@@ -369,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "z_en_ma_yto.c",
               "DocumentMoniker": "F:\\Modding\\N64\\Decomp\\mm\\src\\overlays\\actors\\ovl_En_Ma_Yto\\z_en_ma_yto.c",
               "RelativeDocumentMoniker": "..\\..\\Decomp\\mm\\src\\overlays\\actors\\ovl_En_Ma_Yto\\z_en_ma_yto.c",
@@ -381,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "object_ma2.c",
               "DocumentMoniker": "F:\\Modding\\N64\\Decomp\\mm\\extracted\\n64-us\\assets\\objects\\object_ma2\\object_ma2.c",
               "RelativeDocumentMoniker": "..\\..\\Decomp\\mm\\extracted\\n64-us\\assets\\objects\\object_ma2\\object_ma2.c",
@@ -393,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "strongbad64.h",
               "DocumentMoniker": "F:\\Modding\\N64\\MM-DB-Mod\\MMRecomp\\include\\strongbad64.h",
               "RelativeDocumentMoniker": "include\\strongbad64.h",

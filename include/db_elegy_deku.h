@@ -1,0 +1,20 @@
+#ifndef DB_ELEGY_DEKU_H
+#define DB_ELEGY_DEKU_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gDryBonesElegyShellDeku_karonnew_rgba16[];
+extern u64 gDryBonesElegyShellDeku_elegy_shell_human_platform_rgba16_png_001_rgba16[];
+extern Vtx gDryBonesElegyShellDeku_gDryBonesElegyShellDeku_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gDryBonesElegyShellDeku_gDryBonesElegyShellDeku_mesh_layer_Opaque_vtx_0[822];
+extern Gfx gDryBonesElegyShellDeku_gDryBonesElegyShellDeku_mesh_layer_Opaque_tri_0[];
+extern Vtx gDryBonesElegyShellDeku_gDryBonesElegyShellDeku_mesh_layer_Opaque_vtx_1[36];
+extern Gfx gDryBonesElegyShellDeku_gDryBonesElegyShellDeku_mesh_layer_Opaque_tri_1[];
+extern Gfx mat_gDryBonesElegyShellDeku_ka_body_f3d_001_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellDeku_ka_body_f3d_001_layerOpaque[];
+extern Gfx mat_gDryBonesElegyShellDeku_f3dlite_material_069_layerOpaque[];
+extern Gfx mat_revert_gDryBonesElegyShellDeku_f3dlite_material_069_layerOpaque[];
+extern Gfx gDryBonesElegyShellDeku[];
+
+#endif
